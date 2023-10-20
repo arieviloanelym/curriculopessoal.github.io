@@ -1,0 +1,61 @@
+/* corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F0F8FF;
+  margin: 0;
+  padding: 0;
+}
+
+/* cabeçalho */
+header {
+  background-color: #778899;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* navegação */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  background-color: #DCDCDC;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+/* seções*/
+section {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+/* Estilizando o conteúdo (excluindo o rodapé) */
+.content {
+  flex: 1;
+  padding: 20px;
+}
+/* rodapé */
+footer {
+    background-color: #778899;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* links no rodapé */
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
